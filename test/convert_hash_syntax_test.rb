@@ -5,7 +5,7 @@ class ConvertHashSyntaxTest < Minitest::Test
   def test_convert_hash_syntax
     old_syntax = <<~TEXT
       {
-        :name => 'ALice',
+        :name => 'Alice',
         :age=>20,
         :gender =>  :female
       }
