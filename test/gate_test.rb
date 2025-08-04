@@ -4,7 +4,7 @@ require_relative "../lib/gate"
 class GateTest < Minitest::Test
   def test_gate
     umeda = Gate.new(:umeda)
-    juso = Gate.nwq(:juso)
+    juso = Gate.new(:juso)
 
     ticket = Ticket.new(160)
     umeda.enter(ticket)
